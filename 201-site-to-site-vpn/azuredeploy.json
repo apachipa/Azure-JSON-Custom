@@ -114,7 +114,7 @@
             "defaultValue": "Standard_A1",
             "allowedValues": [
                 "Standard_A1",
-                "Standard_D1",
+                "Standard_D1"
             ],
             "metadata": {
                 "description": "Size of the Virtual Machine."
