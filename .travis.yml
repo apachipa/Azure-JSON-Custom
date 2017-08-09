@@ -1,8 +1,10 @@
 language: node_js
-before_script:
-  - echo $TRAVIS_COMMIT_RANGE
+install:
+  - npm install
   - npm install -g grunt-cli
   - npm install -g mocha
+before_script:
+  - echo $TRAVIS_COMMIT_RANGE
 node_js:
   - "0.12"
 sudo: required
